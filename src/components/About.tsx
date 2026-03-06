@@ -14,7 +14,7 @@ export default function About() {
                 <span className="syntax-comment">// </span>About Me
               </h2>
               <h3 className="text-4xl font-bold text-dark-900 dark:text-white lg:text-5xl">
-                Building Scalability & Reliability Solutions
+                Designing Scalable and Reliable Systems
               </h3>
             </div>
 
@@ -51,7 +51,7 @@ export default function About() {
                     <span className="select-none text-dark-400 dark:text-dark-600">2</span>
                     <div className="flex-1 pl-3">
                       <span className="text-dark-600 dark:text-dark-400">experience:</span>{" "}
-                      <span className="syntax-string">"2+ years building scalable solutions"</span>
+                      <span className="syntax-string">"2+ years designing and building scalable backend solutions."</span>
                       <span className="text-dark-600 dark:text-dark-400">,</span>
                     </div>
                   </div>
@@ -61,7 +61,7 @@ export default function About() {
                     <span className="select-none text-dark-400 dark:text-dark-600">3</span>
                     <div className="flex-1 pl-3">
                       <span className="text-dark-600 dark:text-dark-400">specialization:</span>{" "}
-                      <span className="syntax-string">"Full-Stack, Frontend and Backend Development"</span>
+                      <span className="syntax-string">"Backend & Full-Stack Development"</span>
                       <span className="text-dark-600 dark:text-dark-400">,</span>
                     </div>
                   </div>
@@ -79,7 +79,7 @@ export default function About() {
                   <div className="flex gap-3">
                     <span className="select-none text-dark-400 dark:text-dark-600">5</span>
                     <div className="flex-1 pl-6">
-                      <span className="syntax-string">"Performance optimization"</span>
+                      <span className="syntax-string">"Scalable backend service design"</span>
                       <span className="text-dark-600 dark:text-dark-400">,</span>
                     </div>
                   </div>
@@ -88,7 +88,7 @@ export default function About() {
                   <div className="flex gap-3">
                     <span className="select-none text-dark-400 dark:text-dark-600">6</span>
                     <div className="flex-1 pl-6">
-                      <span className="syntax-string">"Clean architecture"</span>
+                      <span className="syntax-string">"Stable and reliable APIs"</span>
                       <span className="text-dark-600 dark:text-dark-400">,</span>
                     </div>
                   </div>
@@ -97,7 +97,7 @@ export default function About() {
                   <div className="flex gap-3">
                     <span className="select-none text-dark-400 dark:text-dark-600">7</span>
                     <div className="flex-1 pl-6">
-                      <span className="syntax-string">"Efficient Solutions"</span>
+                      <span className="syntax-string">"Optimized server-side performanc"</span>
                       <span className="text-dark-600 dark:text-dark-400">,</span>
                     </div>
                   </div>
@@ -106,7 +106,7 @@ export default function About() {
                   <div className="flex gap-3">
                     <span className="select-none text-dark-400 dark:text-dark-600">8</span>
                     <div className="flex-1 pl-6">
-                      <span className="syntax-string">"High Code Quality"</span>
+                      <span className="syntax-string">"Efficient data workflows"</span>
                     </div>
                   </div>
 
@@ -123,7 +123,7 @@ export default function About() {
                     <span className="select-none text-dark-400 dark:text-dark-600">10</span>
                     <div className="flex-1 pl-3">
                       <span className="text-dark-600 dark:text-dark-400">passion:</span>{" "}
-                      <span className="syntax-string">"Exploring new technologies and building scalable, maintainable systems."</span>
+                      <span className="syntax-string">"Exploring modern technologies to build impactful backend solutions."</span>
                       <span className="text-dark-600 dark:text-dark-400">,</span>
                     </div>
                   </div>
@@ -144,7 +144,7 @@ export default function About() {
                     <span className="select-none text-dark-400 dark:text-dark-600">12</span>
                     <div className="flex-1 pl-6">
                       <span className="syntax-keyword">return</span>{" "}
-                      <span className="syntax-string">"Code that's clean, readable & adaptable"</span>
+                      <span className="syntax-string">"Robust, readable, and extensible code."</span>
                       <span className="text-dark-600 dark:text-dark-400">;</span>
                     </div>
                   </div>
@@ -169,20 +169,20 @@ export default function About() {
             </div>
 
 
-            <div className="grid grid-cols-2 gap-6 pt-8 max-w-sm mx-auto">
-              <div className="text-center">
-                <div className="font-mono text-3xl font-bold text-primary-600 dark:text-primary-400">
+            <div className="grid grid-cols-2 gap-6 pt-8 max-w-lg mx-auto">
+              <div className="flex flex-col items-center justify-center rounded-xl border border-dark-200 bg-white p-6 text-center shadow-lg transition-all hover:border-primary-500 hover:shadow-xl dark:border-dark-800 dark:bg-dark-900">
+                <div className="font-mono text-4xl font-bold text-primary-600 dark:text-primary-400">
                   2+
                 </div>
-                <div className="mt-1 text-sm text-dark-600 dark:text-dark-400">
+                <div className="mt-2 text-sm font-semibold text-dark-600 dark:text-dark-400">
                   Years Experience
                 </div>
               </div>
-              <div className="text-center">
-                <div className="font-mono text-3xl font-bold text-primary-600 dark:text-primary-400">
-                  6+
+              <div className="flex flex-col items-center justify-center rounded-xl border border-dark-200 bg-white p-6 text-center shadow-lg transition-all hover:border-primary-500 hover:shadow-xl dark:border-dark-800 dark:bg-dark-900">
+                <div className="font-mono text-4xl font-bold text-primary-600 dark:text-primary-400">
+                  8+
                 </div>
-                <div className="mt-1 text-sm text-dark-600 dark:text-dark-400">
+                <div className="mt-2 text-sm font-semibold text-dark-600 dark:text-dark-400">
                   Projects Completed
                 </div>
               </div>

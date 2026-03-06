@@ -10,7 +10,7 @@ export default function Projects() {
 
   const categories = [
     "All",
-    ...Array.from(new Set(projects.flatMap((p) => p.category.split(",").map((c) => c.trim())))),
+    ...Array.from(new Set(projects.flatMap((p) => p.category.split(",").map((c) => c.trim())))).sort(),
   ];
 
   const filteredProjects =
@@ -34,7 +34,7 @@ export default function Projects() {
             Projects
           </h3>
           <p className="mx-auto max-w-2xl text-lg text-dark-600 dark:text-dark-300">
-            A selection of projects showcasing scalable, production-ready applications.
+            A collection of scalable production-ready applications
           </p>
         </div>
 

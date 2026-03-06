@@ -5,11 +5,11 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 export const metadata: Metadata = {
   metadataBase: new URL("https://nurulfaradila.github.io"),
   title: {
-    default: "Nurul Faradila - Software Engineer in Test",
+    default: "Nurul Faradila - Software Developer",
     template: "%s | Nurul Faradila",
   },
   description:
-    "Software Engineer in Test specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
+    "Software Developer specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
   keywords: [
     "Frontend Engineer",
     "React Developer",
@@ -25,24 +25,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://nurulfaradila.github.io",
-    title: "Nurul Faradila - Software Engineer in Test",
+    title: "Nurul Faradila - Software Developer",
     description:
-      "Software Engineer in Test specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
+      "Software Developer specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
     siteName: "Nurul Faradila Portfolio",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Nurul Faradila - Software Engineer in Test",
+        alt: "Nurul Faradila - Software Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nurul Faradila - Software Engineer in Test",
+    title: "Nurul Faradila - Software Developer",
     description:
-      "Software Engineer in Test specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
+      "Software Developer specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
     creator: "@nurulfaradila",
     images: ["/og-image.png"],
   },

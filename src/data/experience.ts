@@ -2,17 +2,17 @@ import { Experience } from "@/types";
 
 export const experiences: Experience[] = [
   {
-    id: "software-engineer",
+    id: "software-developer",
     company: "Uchi Optoelectronics (M) Sdn. Bhd.",
-    position: "Software Engineer",
-    duration: "September 2023 - Present",
+    position: "Software Test Engineer (Backend Developer)",
+    duration: "Sept 2023 - Feb 2026",
     location: "Pulau Pinang, Malaysia",
     description: [
-      "Designed and built backend microservices using Python and RESTful APIs, improving system scalability and availability.",
-      "Implemented service-to-service communication and SQL databases, enabling reliable data processing at scale.",
-      "Collaborated with engineering teams to optimize backend performance and reduce latency.",
-      "Perfomed unit, integration, and E2E testing with CI/CD pipelines, ensuring stable and reliable deployments.",
-      "Conducted root cause analysis (RCA) on distributed systems, delivering long-term reliability improvements.",
+      "Built reliable backend systems to support real-time data processing and quality control operations.",
+      "Implemented RESTful APIs to automate system interactions, enhancing operational visibility and performance monitoring.",
+      "Optimized database performance and queries to support fast analytics, improving data-driven business insights.",
+      "Implemented event-driven pipelines and asynchronous processing to automate critical operations, reducing manual effort and operational costs.",
+      "Ensured secure authentication and role-based access control, protecting sensitive data and maintaining regulatory compliance.",
     ],
     achievements: [
       "Developed high-performance backend services to handle real-time event data, ensuring low latency, reliability, and scalability.",

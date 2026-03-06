@@ -68,7 +68,7 @@ export default function Hero() {
                 <span className="select-none text-dark-400 dark:text-dark-600">2</span>
                 <div className="flex-1 pl-4">
                   <span className="text-dark-600 dark:text-dark-400">name:</span>{" "}
-                  <span className="syntax-string">"Nurul Faradila Sazali"</span>
+                  <span className="syntax-string">"Nurul Faradila Binti Sazali"</span>
                   <span className="text-dark-600 dark:text-dark-400">,</span>
                 </div>
               </div>
@@ -79,7 +79,7 @@ export default function Hero() {
                 <div className="flex-1 pl-4">
                   <span className="text-dark-600 dark:text-dark-400">role:</span>{" "}
                   <span className="bg-gradient-to-r from-primary-500 to-accent-cyan bg-clip-text font-semibold text-transparent">
-                    "Software Engineer"
+                    "Software Test Engineer (Backend Developer)"
                   </span>
                   <span className="text-dark-600 dark:text-dark-400">,</span>
                 </div>
@@ -91,21 +91,14 @@ export default function Hero() {
                 <div className="flex-1 pl-4">
                   <span className="text-dark-600 dark:text-dark-400">skills:</span>{" "}
                   <span className="text-dark-600 dark:text-dark-400">[</span>
-                  <span className="syntax-string">"Python"</span>
-                  <span className="text-dark-600 dark:text-dark-400">,</span>{" "}
-                  <span className="syntax-string">"API integration"</span>
-                  <span className="text-dark-600 dark:text-dark-400">,</span>{" "}
-                  <span className="syntax-string">"Data Management"</span>
-                  <span className="text-dark-600 dark:text-dark-400">],</span>
                 </div>
               </div>
 
 
               <div className="flex gap-4">
                 <span className="select-none text-dark-400 dark:text-dark-600">5</span>
-                <div className="flex-1 pl-4">
-                  <span className="text-dark-600 dark:text-dark-400">passion:</span>{" "}
-                  <span className="syntax-string">"Turning ideas into robust software"</span>
+                <div className="flex-1 pl-8">
+                  <span className="syntax-string">"Server-Side Programming (Python & JAVA)"</span>
                   <span className="text-dark-600 dark:text-dark-400">,</span>
                 </div>
               </div>
@@ -113,6 +106,50 @@ export default function Hero() {
 
               <div className="flex gap-4">
                 <span className="select-none text-dark-400 dark:text-dark-600">6</span>
+                <div className="flex-1 pl-8">
+                  <span className="syntax-string">"API Development"</span>
+                  <span className="text-dark-600 dark:text-dark-400">,</span>
+                </div>
+              </div>
+
+
+              <div className="flex gap-4">
+                <span className="select-none text-dark-400 dark:text-dark-600">7</span>
+                <div className="flex-1 pl-8">
+                  <span className="syntax-string">"Database Management"</span>
+                  <span className="text-dark-600 dark:text-dark-400">,</span>
+                </div>
+              </div>
+
+
+              <div className="flex gap-4">
+                <span className="select-none text-dark-400 dark:text-dark-600">8</span>
+                <div className="flex-1 pl-8">
+                  <span className="syntax-string">"System Design & Scalability"</span>
+                </div>
+              </div>
+
+
+              <div className="flex gap-4">
+                <span className="select-none text-dark-400 dark:text-dark-600">9</span>
+                <div className="flex-1 pl-4">
+                  <span className="text-dark-600 dark:text-dark-400">],</span>
+                </div>
+              </div>
+
+
+              <div className="flex gap-4">
+                <span className="select-none text-dark-400 dark:text-dark-600">10</span>
+                <div className="flex-1 pl-4">
+                  <span className="text-dark-600 dark:text-dark-400">passion:</span>{" "}
+                  <span className="syntax-string">"Transforming complex problems into efficient backend systems."</span>
+                  <span className="text-dark-600 dark:text-dark-400">,</span>
+                </div>
+              </div>
+
+
+              <div className="flex gap-4">
+                <span className="select-none text-dark-400 dark:text-dark-600">11</span>
                 <div className="flex-1 pl-4">
                   <span className="syntax-function">build</span>
                   <span className="text-dark-600 dark:text-dark-400">:</span>{" "}
@@ -123,11 +160,11 @@ export default function Hero() {
 
 
               <div className="flex gap-4">
-                <span className="select-none text-dark-400 dark:text-dark-600">7</span>
+                <span className="select-none text-dark-400 dark:text-dark-600">12</span>
                 <div className="flex-1 pl-8">
                   <span className="syntax-keyword">return</span>{" "}
                   <span className="syntax-string">
-                    "Reliable and maintainable software"
+                    "Reliable, maintainable, and high-performance backend systems"
                   </span>
                   <span className="text-dark-600 dark:text-dark-400">;</span>
                 </div>
@@ -135,7 +172,7 @@ export default function Hero() {
 
 
               <div className="flex gap-4">
-                <span className="select-none text-dark-400 dark:text-dark-600">8</span>
+                <span className="select-none text-dark-400 dark:text-dark-600">13</span>
                 <div className="flex-1 pl-4">
                   <span className="text-dark-600 dark:text-dark-400">{"}"}</span>
                 </div>
@@ -143,7 +180,7 @@ export default function Hero() {
 
 
               <div className="flex gap-4">
-                <span className="select-none text-dark-400 dark:text-dark-600">9</span>
+                <span className="select-none text-dark-400 dark:text-dark-600">14</span>
                 <div className="flex-1">
                   <span className="text-dark-600 dark:text-dark-400">{"}"}</span>
                   <span className="cursor-blink ml-1 inline-block h-5 w-0.5 bg-primary-500 align-middle"></span>

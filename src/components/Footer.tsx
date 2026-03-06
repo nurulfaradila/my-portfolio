@@ -15,7 +15,7 @@ export default function Footer() {
               <span className="text-white">portfolio</span>
             </div>
             <p className="text-sm text-dark-400">
-              Building reliable, scalable systems with a focus on quality assurance and backend excellence.
+              Building high-performance backend systems with reliability and maintainability.
             </p>
           </div>
 
