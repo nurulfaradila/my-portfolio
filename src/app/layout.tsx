@@ -5,11 +5,11 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 export const metadata: Metadata = {
   metadataBase: new URL("https://nurulfaradila.github.io"),
   title: {
-    default: "Nurul Faradila - Software Developer",
+    default: "Nurul Faradila - Backend & Full-Stack Developer",
     template: "%s | Nurul Faradila",
   },
   description:
-    "Software Developer specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
+    "Backend & Full-Stack Developer specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
   keywords: [
     "Frontend Engineer",
     "React Developer",
@@ -25,24 +25,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://nurulfaradila.github.io",
-    title: "Nurul Faradila - Software Developer",
+    title: "Nurul Faradila - Backend & Full-Stack Developer",
     description:
-      "Software Developer specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
+      "Backend & Full-Stack Developer specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
     siteName: "Nurul Faradila Portfolio",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Nurul Faradila - Software Developer",
+        alt: "Nurul Faradila - Backend & Full-Stack Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nurul Faradila - Software Developer",
+    title: "Nurul Faradila - Backend & Full-Stack Developer",
     description:
-      "Software Developer specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
+      "Backend & Full-Stack Developer specializing in Python, JavaScript, and TypeScript. Building reliable, scalable systems with a focus on quality assurance and backend excellence.",
     creator: "@nurulfaradila",
     images: ["/og-image.png"],
   },

@@ -14,7 +14,7 @@ export default function About() {
                 <span className="syntax-comment">// </span>About Me
               </h2>
               <h3 className="text-4xl font-bold text-dark-900 dark:text-white lg:text-5xl">
-                Designing Scalable and Reliable Systems
+                Building Scalable Systems & Modern Web Applications
               </h3>
             </div>
 
@@ -51,7 +51,7 @@ export default function About() {
                     <span className="select-none text-dark-400 dark:text-dark-600">2</span>
                     <div className="flex-1 pl-3">
                       <span className="text-dark-600 dark:text-dark-400">experience:</span>{" "}
-                      <span className="syntax-string">"2+ years designing and building scalable backend solutions."</span>
+                      <span className="syntax-string">"2+ years building maintainable backend systems with modern frontend integration."</span>
                       <span className="text-dark-600 dark:text-dark-400">,</span>
                     </div>
                   </div>
@@ -79,7 +79,7 @@ export default function About() {
                   <div className="flex gap-3">
                     <span className="select-none text-dark-400 dark:text-dark-600">5</span>
                     <div className="flex-1 pl-6">
-                      <span className="syntax-string">"Scalable backend service design"</span>
+                      <span className="syntax-string">"Scalable backend architecture"</span>
                       <span className="text-dark-600 dark:text-dark-400">,</span>
                     </div>
                   </div>
@@ -88,7 +88,7 @@ export default function About() {
                   <div className="flex gap-3">
                     <span className="select-none text-dark-400 dark:text-dark-600">6</span>
                     <div className="flex-1 pl-6">
-                      <span className="syntax-string">"Stable and reliable APIs"</span>
+                      <span className="syntax-string">"High-performance API development"</span>
                       <span className="text-dark-600 dark:text-dark-400">,</span>
                     </div>
                   </div>
@@ -97,7 +97,7 @@ export default function About() {
                   <div className="flex gap-3">
                     <span className="select-none text-dark-400 dark:text-dark-600">7</span>
                     <div className="flex-1 pl-6">
-                      <span className="syntax-string">"Optimized server-side performanc"</span>
+                      <span className="syntax-string">"Efficient data processing pipelines"</span>
                       <span className="text-dark-600 dark:text-dark-400">,</span>
                     </div>
                   </div>
@@ -106,7 +106,7 @@ export default function About() {
                   <div className="flex gap-3">
                     <span className="select-none text-dark-400 dark:text-dark-600">8</span>
                     <div className="flex-1 pl-6">
-                      <span className="syntax-string">"Efficient data workflows"</span>
+                      <span className="syntax-string">"End-to-end application development"</span>
                     </div>
                   </div>
 
@@ -123,7 +123,7 @@ export default function About() {
                     <span className="select-none text-dark-400 dark:text-dark-600">10</span>
                     <div className="flex-1 pl-3">
                       <span className="text-dark-600 dark:text-dark-400">passion:</span>{" "}
-                      <span className="syntax-string">"Exploring modern technologies to build impactful backend solutions."</span>
+                      <span className="syntax-string">"Building scalable end-to-end applications using modern technologies."</span>
                       <span className="text-dark-600 dark:text-dark-400">,</span>
                     </div>
                   </div>
@@ -144,7 +144,7 @@ export default function About() {
                     <span className="select-none text-dark-400 dark:text-dark-600">12</span>
                     <div className="flex-1 pl-6">
                       <span className="syntax-keyword">return</span>{" "}
-                      <span className="syntax-string">"Robust, readable, and extensible code."</span>
+                      <span className="syntax-string">"High-performance backend services and interactive web interfaces."</span>
                       <span className="text-dark-600 dark:text-dark-400">;</span>
                     </div>
                   </div>

@@ -3,56 +3,53 @@ import { Skill } from "@/types";
 export const skills: Skill[] = [
   {
     category: "Programming Languages",
-    items: ["Java", "Python", "Go", "C", "C++", "JavaScript", "TypeScript"],
-  },
-  {
-    category: "Front-end / UI",
     items: [
-      "HTML5",
+      "C",
+      "Go",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "AssemblyScript",
       "CSS3",
-      "TailwindCSS",
-      "Bootstrap",
-      "Canva",
+      "HTML5",
     ],
   },
   {
-    category: "Front-end Frameworks / Tools",
-    items: ["React", "Angular.js", "Vue.js", "Next.js", "Vite", "Streamlit"],
+    category: "Frontend Development",
+    items: ["React", "TailwindCSS", "Bootstrap", "Vite", "Next JS", "Chart.js", "Plotly"],
   },
   {
-    category: "Data Visualization",
-    items: ["Chart.js", "Plotly", "Matplotlib"],
+    category: "Backend Development / APIs",
+    items: [
+      "FastAPI",
+      "Flask",
+      "Spring",
+      "SQLAlchemy",
+      "Celery",
+      "JWT (authentication / security)",
+      "Socket.io",
+      "RabbitMQ",
+    ],
   },
   {
-    category: "Back-end / Frameworks",
-    items: ["Spring", "Flask", "FastAPI", "Express.js", "Django"],
+    category: "Databases",
+    items: ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Elasticsearch", "Redis"],
   },
   {
-    category: "Authentication & APIs",
-    items: ["JWT", "Swagger", "Socket.io"],
+    category: "Data Science / AI / ML",
+    items: ["NumPy", "Pandas", "PyTorch", "OpenCV"],
   },
   {
-    category: "Databases / Storage",
-    items: ["MySQL", "Postgres", "SQLite", "MongoDB", "Redis", "Elasticsearch"],
-  },
-  {
-    category: "DevOps / Deployment / CI/CD",
-    items: ["Docker", "Vercel", "GitHub Actions", "Jenkins", "Prometheus", "Grafana"],
-  },
-  {
-    category: "AI / Machine Learning / Data",
-    items: ["PyTorch", "TensorFlow", "scikit-learn", "NumPy", "Pandas", "Matplotlib"],
-  },
-  {
-    category: "Testing & API Tools",
-    items: ["Testing-Library", "Postman"],
-  },
-  {
-    category: "Scripting / CLI",
-    items: ["Bash Script", "PowerShell", "Windows Terminal"],
+    category: "DevOps / Deployment / Tools",
+    items: ["Docker", "Linux", "Vercel", "Git / GitHub", "NPM", "Prometheus"],
   },
   {
     category: "IoT / Hardware",
-    items: ["Arduino", "Raspberry Pi"],
+    items: ["Raspberry Pi", "Arduino"],
+  },
+  {
+    category: "Testing & API Tools",
+    items: ["Postman", "Testing-Library", "Swagger", "Pytest", "JSON"],
   },
 ];

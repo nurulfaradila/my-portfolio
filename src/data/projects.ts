@@ -6,23 +6,24 @@ export const projects: Project[] = [
     id: "pcb-defect-detection-system",
     title: "PCB Defect Detection System",
     description:
-      "Developed the backend architecture for an automated PCB defect detection system, ensuring scalability and reliability.",
+      "Developed a backend system for an automated PCB defect detection system with real-time monitoring capabilities.",
     problem:
-      "Manual PCB inspection is time-consuming, error-prone, and hard to scale in high-volume manufacturing.",
+      "Manual PCB inspection is slow, error-prone, and hard to scale for large production volumes.",
     solution:
-      "Built a YOLOv8-based defect detection pipeline with FastAPI, asynchronous processing, and optimized server-side workflows for efficiency.",
+      "Implemented an asynchronous YOLOv8 detection pipeline with FastAPI and a dashboard interface to track inspection results in real-time.",
     results:
-      "Enabled faster, more reliable, and scalable PCB inspections by improving backend performance and automating data processing.",
+      "Automated PCB inspection, enhancing speed, consistency, and production efficiency.",
     techStack: [
       "Celery",
       "Docker",
       "FastAPI",
       "PostgreSQL",
+      "Pydantic",
       "Python",
       "PyTorch",
       "RabbitMQ",
-      "Streamlit",
       "SQLAlchemy",
+      "Streamlit",
       "YOLOv8",
     ],
     category: "Backend, Full-Stack, Machine Learning",
@@ -34,25 +35,25 @@ export const projects: Project[] = [
     id: "manufacturing-monitoring-system",
     title: "Manufacturing Monitoring System",
     description:
-      "Created a real-time backend architecture for monitoring manufacturing test results with live updates.",
+      "Developed a scalable backend and dashboard system to capture, process, and monitor production test data in real time.",
     problem:
-      "Production test data from manufacturing lines was fragmented across machines, delaying defect detection and impacting yield and throughput.",
+      "Production test data from multiple machines was inconsistent and hard to track",
     solution:
-      "Designed an event-driven microservices backend for high-throughput data ingestion and low-latency processing.",
+      "Built a scalable backend system with APIs and WebSockets to process test data and broadcast live results to a dashboard.",
     results:
-      "Increased production visibility, reduced defect response time, and delivered a scalable backend infrastructure for continuous operations.",
+      "Improved operational control by enabling immediate action on quality issues to ensure consistent production output",
     techStack: [
-      "aiomysql",
       "Docker",
       "FastAPI",
       "MySQL",
       "Python",
       "RabbitMQ",
       "React",
+      "Recharts",
       "SQLAlchemy",
       "Tailwind CSS",
       "TypeScript",
-      "Uvicorn",
+      "Vite",
     ],
     category: "Backend, Full-Stack",
     image: "/projects/2.png",
@@ -63,20 +64,20 @@ export const projects: Project[] = [
     id: "e-commerce-platform",
     title: "E-commerce Platform",
     description:
-      "Built a scalable backend system for a wedding invitation e-commerce platform, supporting template customization and secure checkout.",
+      "Built a scalable backend system for a wedding invitation platform, supporting template customization, order management and secure checkout.",
     problem:
-      "Manual invitation ordering slowed customization and limited scalability.",
+      "Processing orders and payments manually created bottlenecks and inconsistent results.",
     solution:
-      "Designed a clean-architecture backend and event-driven processing to handle orders, payments, and asynchronous workflows.",
+      "Implemented asynchronous processing and clean-architecture backend design to streamline order and payment operations.",
     results:
-      "Delivered a production-ready, scalable backend system optimized for performance and maintainability.",
+      "Delivered a reliable backend that improves processing speed and ensures smooth operations.",
     techStack: [
-      "CartContext",
       "Docker",
       "Golang",
       "MySQL",
       "RabbitMQ",
       "React",
+      "React Context",
       "Tailwind CSS",
       "TypeScript",
       "Vite",
@@ -90,23 +91,24 @@ export const projects: Project[] = [
     id: "website-portfolio",
     title: "Website Portfolio",
     description:
-      "Developed a modern portfolio platform to present technical projects and backend engineering work.",
+      "Developed a web platform to showcase technical projects with efficient backend services and interactive frontend.",
     problem:
-      "Needed a fast and structured platform to showcase projects and technical capabilities professionally.",
+      "Presenting technical projects professionally was challenging due to slow, unstructured, and non-optimized platforms.",
     solution:
-      "Built a responsive web application with performance optimization and clean component architecture.",
+      "Built a Next.js and TypeScript application with server-side rendering, modular components, and optimized data flow.",
     results:
-      "Delivered a lightweight, maintainable platform optimized for speed and accessibility.",
+      "Delivered a fast, maintainable, and scalable platform highlighting backend efficiency and clean project presentation.",
     techStack: [
       "ESLint",
       "Next.js",
       "PostCSS",
       "Prettier",
+      "PostCSS",
       "React",
       "Tailwind CSS",
       "TypeScript",
     ],
-    category: "Full-Stack, Frontend",
+    category: "Backend, Frontend",
     image: "/projects/4.png",
     githubUrl: "https://github.com/nurulfaradila/portfolio",
     featured: true,
@@ -115,21 +117,20 @@ export const projects: Project[] = [
     id: "dodo-ai-assistant",
     title: "DoDo - Local Document Assistant",
     description:
-      "Developed a local RAG-based backend system enabling secure document querying without cloud dependency.",
+      "Developed a local AI-driven RAG backend with an interactive web interface for secure document exploration.",
     problem:
-      "Cloud-based AI services raise privacy concerns when handling sensitive documents.",
+      "Handling sensitive documents on cloud AI services risks data leaks and compliance issues.",
     solution:
-      "Built a local processing pipeline for secure document indexing and low-latency query execution.",
+      "Built an end-to-end local pipeline combining semantic search, vector indexing, and on-device LLM inference for fast and private document access.",
     results:
-      "Implemented a low-latency backend system ensuring secure and private document handling",
+      "Delivered a secure and responsive system that accelerates document retrieval while keeping data fully private",
     techStack: [
       "FAISS",
       "FastAPI",
-      "HTML",
-      "JavaScript",
+      "LangChain",
       "Ollama",
-      "Phi-2",
-      "Python",
+      "Phi",
+      "Pydantic",
       "Sentence-Transformers",
     ],
     category: "AI, Backend, Full-Stack",
@@ -141,14 +142,14 @@ export const projects: Project[] = [
     id: "ride-hailing-system",
     title: "Ride-Hailing System",
     description:
-      "Built a real-time backend system to handle rider requests, driver locations, and dynamic matching.",
+      "Developed a high-performance backend and interactive frontend to manage real-time ride requests, driver tracking, and dynamic matching.",
     problem:
-      "Processing real-time location and request data reliably is complex at scale.",
+      "Processing live ride requests and driver locations at the same time was hard to scale.",
     solution:
-      "Implemented microservices to handle real-time ride matching and location updates.",
+      "Built microservices with Spring Boot, Redis, RabbitMQ, and Elasticsearch, connected to a React dashboard for real-time updates.",
     results:
-      "Delivered a high-performance backend supporting real-time operations at scale.",
-    techStack: ["CSS", "Docker", "Elasticsearch", "Java", "Leaflet", "PostgreSQL", "RabbitMQ", "React", "Redis", "Spring Boot"],
+      "Delivered a fast and reliable ride-hailing system that works smoothly even with many users at once.",
+    techStack: ["Axois", "CSS", "Docker", "Elasticsearch", "Java", "Leaflet", "PostgreSQL", "RabbitMQ", "React", "Redis", "Spring Boot", "Spring Data JPA", "Vite"],
     category: "Backend, Full-Stack",
     image: "/projects/6.png",
     githubUrl: "https://github.com/nurulfaradila/ride_hailing_system",
@@ -156,28 +157,32 @@ export const projects: Project[] = [
   },
   {
     id: "rca-system",
-    title: "AI-Driven Root Cause Analysis System",
+    title: "Root Cause Analysis System",
     description:
-      "Implemented a backend system to process PCB test logs and perform automated root cause analysis.",
+      "Built an end-to-end system to automatically process data logs and pinpoint failure causes using backend services and a dynamic frontend.",
     problem:
-      "Manual processing of high-volume test logs delayed real-time diagnostics.",
+      "High-volume data logs made it difficult to quickly identify production failures and take corrective action.",
     solution:
-      "Built a scalable backend pipeline for fast log ingestion and analysis.",
+      "Implemented a FastAPI backend with asynchronous log ingestion, ML-based failure analysis, and a React dashboard for instant visualization of production issues.",
     results:
-      "Delivered a scalable backend for real-time diagnostics, ncreasing failure detection accuracy.",
+      "Reduced detection time, improved accuracy of root cause analysis, and enabled real-time monitoring.",
     techStack: [
       "Docker",
       "FastAPI",
       "JWT",
       "PostgreSQL",
+      "Prometheus",
+      "Pydantic",
       "PyTorch",
       "Python",
       "React",
       "Recharts",
       "SQLAlchemy",
+      "Tailwind CSS",
+      "TypeScript",
       "Vite",
     ],
-    category: "AI, Backend, Full-Stack, Machine Learning",
+    category: "Backend, Full-Stack, Machine Learning",
     image: "/projects/7.PNG",
     githubUrl: "https://github.com/nurulfaradila/RCA_system",
     featured: true,

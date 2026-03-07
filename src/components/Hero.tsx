@@ -79,7 +79,7 @@ export default function Hero() {
                 <div className="flex-1 pl-4">
                   <span className="text-dark-600 dark:text-dark-400">role:</span>{" "}
                   <span className="bg-gradient-to-r from-primary-500 to-accent-cyan bg-clip-text font-semibold text-transparent">
-                    "Software Test Engineer (Backend Developer)"
+                    "Backend & Full-Stack Developer"
                   </span>
                   <span className="text-dark-600 dark:text-dark-400">,</span>
                 </div>
@@ -129,6 +129,21 @@ export default function Hero() {
                 </div>
               </div>
 
+              <div className="flex gap-4">
+                <span className="select-none text-dark-400 dark:text-dark-600">8</span>
+                <div className="flex-1 pl-8">
+                  <span className="syntax-string">"Containerization (Docker)"</span>
+                  <span className="text-dark-600 dark:text-dark-400">,</span>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <span className="select-none text-dark-400 dark:text-dark-600">9</span>
+                <div className="flex-1 pl-8">
+                  <span className="syntax-string">"Frontend Development (TypeScript, JavaScript, React, Next.js)"</span>
+                </div>
+              </div>
+
 
               <div className="flex gap-4">
                 <span className="select-none text-dark-400 dark:text-dark-600">9</span>
@@ -142,7 +157,7 @@ export default function Hero() {
                 <span className="select-none text-dark-400 dark:text-dark-600">10</span>
                 <div className="flex-1 pl-4">
                   <span className="text-dark-600 dark:text-dark-400">passion:</span>{" "}
-                  <span className="syntax-string">"Transforming complex problems into efficient backend systems."</span>
+                  <span className="syntax-string">"Transforming ideas into functional and scalable software."</span>
                   <span className="text-dark-600 dark:text-dark-400">,</span>
                 </div>
               </div>
@@ -164,7 +179,7 @@ export default function Hero() {
                 <div className="flex-1 pl-8">
                   <span className="syntax-keyword">return</span>{" "}
                   <span className="syntax-string">
-                    "Reliable, maintainable, and high-performance backend systems"
+                    "End-to-end applications from backend logic to user interfaces."
                   </span>
                   <span className="text-dark-600 dark:text-dark-400">;</span>
                 </div>
