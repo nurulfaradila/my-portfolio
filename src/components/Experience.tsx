@@ -34,7 +34,7 @@ export default function Experience() {
               >
                 <div
                   className={`${experiences.length === 1
-                    ? "w-full max-w-2xl text-left"
+                    ? "w-full max-w-4xl text-left"
                     : "lg:w-1/2"
                     } ${index % 2 === 0 && experiences.length > 1 ? "lg:ml-auto" : index % 2 !== 0 && experiences.length > 1 ? "lg:mr-auto" : ""} group`}
                 >
