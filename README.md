@@ -15,7 +15,6 @@ A responsive portfolio platform designed to present a curated collection of adva
 - **Modern Tech Stack**: Leveraging Next.js 15, React 19, and TypeScript for a robust, type-safe application.
 - **Premium UI/UX**: Features a developer-focused aesthetic with glassmorphism, dark mode support, and smooth motion design.
 - **Micro-Animations**: Advanced animations and transitions powered by Framer Motion for an engaging user experience.
-- **Project Showcase**: Detailed technical breakdown of projects including PCB Defect Detection, Manufacturing Monitoring, and AI-driven systems.
 - **Optimized Performance**: Built with server-side rendering (SSR) and semantic HTML for maximum speed and efficiency.
 
 ---
