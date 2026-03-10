@@ -8,17 +8,16 @@ export const experiences: Experience[] = [
     duration: "Sept 2023 - Feb 2026",
     location: "Pulau Pinang, Malaysia",
     description: [
-      "Designed and developed scalable microservice using Python (Flask) to process real-time data reliably and efficiently.",
-      "Built RESTful APIs integrating backend services with React dashboards to enable real-time data visualization and system interaction.",
+      "Designed and developed scalable microservice using FastAPI to process real-time data reliably and efficiently.",
+      "Built RESTful APIs integrating backend services with React web application to enable real-time data visualization and interactive user experience.",
       "Optimized PostgreSQL and MySQL database queries and indexing strategies to handle high-volume data and improve API response performance.",
-      "Implemented event-driven architecture using RabbitMQ and Redis to automate data pipelines and support asynchronous processing.",
-      "Implemented secure authentication and authorization using JWT to ensure protected API access and data integrity.",
-      "Developed web applications integrating backend services with React and WebSocket for real-time system monitoring.",
+      "Developed event-driven architecture using RabbitMQ and Redis to automate data pipelines and support asynchronous processing.",
+      "Implemented secure authentication and authorization using JWT and RBAC to ensure controlled access and data integrity.",
     ],
     achievements: [
-      "Improved real-time processing of production data, enabling faster defect identification and response on production environment.",
-      "Automated data pipelines and operational workflows, reducing manual monitoring and improving process efficiency.",
-      "Delivered real-time dashboards for production tracking and quality monitoring, improving operational visibility and decision-making."
+      "Delivered real-time dashboards for production tracking and quality monitoring, improving analytical speed by 80%.",
+      "Improved real-time processing of inspection data, reducing manual effort by 90% and improving quality control 60%.",
+      "Introduced automated data pipelines and operational processes, supporting high-volume daily data and ensuring smooth operations."
     ],
     techStack: [
       "Bootstrap",
@@ -32,7 +31,6 @@ export const experiences: Experience[] = [
       "Linux",
       "MySQL",
       "PostgreSQL",
-      "Postman",
       "Prometheus",
       "Python",
       "Pytest",

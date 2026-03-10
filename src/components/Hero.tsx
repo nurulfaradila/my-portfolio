@@ -140,7 +140,7 @@ export default function Hero() {
               <div className="flex gap-4">
                 <span className="select-none text-dark-400 dark:text-dark-600">9</span>
                 <div className="flex-1 pl-8">
-                  <span className="syntax-string">"Frontend Development (TypeScript, JavaScript, React, Next.js)"</span>
+                  <span className="syntax-string">"Frontend Development (TypeScript, JavaScript, React, HTML, CSS)"</span>
                 </div>
               </div>
 

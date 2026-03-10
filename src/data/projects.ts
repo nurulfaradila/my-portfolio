@@ -103,7 +103,6 @@ export const projects: Project[] = [
       "Next.js",
       "PostCSS",
       "Prettier",
-      "PostCSS",
       "React",
       "Tailwind CSS",
       "TypeScript",
@@ -149,7 +148,7 @@ export const projects: Project[] = [
       "Built microservices with Spring Boot, Redis, RabbitMQ, and Elasticsearch, connected to a React dashboard for real-time updates.",
     results:
       "Delivered a fast and reliable ride-hailing system that works smoothly even with many users at once.",
-    techStack: ["Axois", "CSS", "Docker", "Elasticsearch", "Java", "Leaflet", "PostgreSQL", "RabbitMQ", "React", "Redis", "Spring Boot", "Spring Data JPA", "Vite"],
+    techStack: ["Axios", "CSS", "Docker", "Elasticsearch", "Java", "Leaflet", "PostgreSQL", "RabbitMQ", "React", "Redis", "Spring Boot", "Spring Data JPA", "Vite"],
     category: "Backend, Full-Stack",
     image: "/projects/6.png",
     githubUrl: "https://github.com/nurulfaradila/ride_hailing_system",
